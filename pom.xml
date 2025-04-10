@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Automation_challenge_wiredin_test</groupId>
+  <artifactId>Automation_challenge</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Automation_challenge_wiredin_test</name>
+  <description>Automation_challenge_wiredin_test</description>
+  <dependencies>
+    <!-- Selenium WebDriver -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.10.0</version> <!-- Use latest version -->
+    </dependency>
+   
+    <!-- WebDriver Manager for automatic driver setup -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.7.0</version>
+    </dependency>
+
+    <!-- JUnit (if using JUnit for tests) -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.9.2</version>
+        <scope>test</scope>
+    </dependency>
+     <!-- SLF4J API -->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.32</version> <!-- Use the latest version -->
+    </dependency>
+
+    <!-- SLF4J Binding for Logback (or any other provider like log4j) -->
+    <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.2.6</version> <!-- Use the latest version -->
+    </dependency>
+</dependencies>
+</project>
